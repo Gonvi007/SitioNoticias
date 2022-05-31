@@ -220,10 +220,15 @@ hr{
         left: 0;
         background: #3f3640;
         height: 100%;
-        transform: translateX(-300px);
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
         padding: 30px;
         opacity: .9;
     }
+    .nav-main ul.nav-menu.show {
+        transform: translate(-20px);
+    }
+
 
     .nav-main ul.nav-menu li {
         padding: 20px;
